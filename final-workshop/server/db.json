@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "id": "2fde",
+      "name": "daniela",
+      "email": "mario@gmail.com",
+      "password": "U2FsdGVkX1+h2SDI9damzB50++z5sQbTQvEsOR6Tb1g="
+    },
+    {
+      "id": "308c",
+      "name": "daniela",
+      "email": "daniela@correo.com",
+      "password": "U2FsdGVkX18GS8Ijk4Qx2zhuUHvSlZzxaHy4/ZN2534="
+    },
+    {
+      "id": "dfc5",
+      "name": "elsa",
+      "email": "elsa@correo.com",
+      "password": "U2FsdGVkX18Vojr1ijBLHcsCER9OSN5fM3JreShk5QM="
+    },
+    {
+      "id": "ec82",
+      "name": "mario",
+      "email": "alonso@correo.com",
+      "password": "U2FsdGVkX1/ad2sJxeH503ASAJqevV9nNLosySlDLRo="
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1f2f",
+      "title": "comer",
+      "description": "comer afuera",
+      "priority": "MEDIUM",
+      "status": "NOCOMPLETED",
+      "date": "2024-06-12",
+      "idUser": "308c"
+    },
+    {
+      "id": "7c4d",
+      "title": "Salir el sabado",
+      "description": "a bailar",
+      "priority": "HIGH",
+      "status": "NOCOMPLETED",
+      "date": "2024-06-29",
+      "idUser": "dfc5"
+    },
+    {
+      "id": "61e1",
+      "title": "pizza",
+      "description": "domingo",
+      "priority": "LOW",
+      "status": "COMPLETED",
+      "date": "2024-06-07",
+      "idUser": "ec82"
+    },
+    {
+      "id": "718d",
+      "title": "Ir a cenar",
+      "description": "el sabado en la mañana",
+      "priority": "MEDIUM",
+      "status": "COMPLETED",
+      "date": "2024-06-07",
+      "idUser": "ec82"
+    },
+    {
+      "id": "1058",
+      "title": "bañarme",
+      "description": "temprano",
+      "priority": "HIGH",
+      "status": "NOCOMPLETED",
+      "date": "2024-06-29",
+      "idUser": "2fde"
+    }
+  ]
+}

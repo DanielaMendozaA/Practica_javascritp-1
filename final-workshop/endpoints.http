@@ -1,0 +1,14 @@
+GET http://localhost:3000/users
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Daniel",
+  "email": "daniela@gmail.com",
+  "password": "123"
+}
+
+###
+GET http://localhost:3000/tasks/1e39
