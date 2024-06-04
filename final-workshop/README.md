@@ -111,3 +111,13 @@
 
 - Es porque tengo una extension  llamada Javascript code Snippets
 **Esto va para Juan**
+
+
+
+- Notas
+ - storage.length()
+ - storage.key()
+ - storage.getitem()
+ - storage.setitem()
+ - storage.removeitem()
+ - storage.clear()

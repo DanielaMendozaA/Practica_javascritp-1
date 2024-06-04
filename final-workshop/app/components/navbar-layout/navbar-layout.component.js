@@ -24,9 +24,10 @@ export function NavbarLayout(pageContent, logic){
 
     const $logOutButton = root.querySelector('#logout');
     $logOutButton.addEventListener('click', (e) =>{
-        localStorage.removeItem('token');
-        localStorage.removeItem('userId');
-        localStorage.removeItem('IdFromUser');
+        // localStorage.removeItem('token');
+        // localStorage.removeItem('userId');
+        // localStorage.removeItem('IdFromUser');
+        localStorage.clear();
         navegateTo('/login');
     });
 }
