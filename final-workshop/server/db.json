@@ -70,6 +70,24 @@
       "status": "NOCOMPLETED",
       "date": "2024-06-29",
       "idUser": "2fde"
+    },
+    {
+      "id": "005e",
+      "title": "Correr",
+      "description": "afuera",
+      "priority": "MEDIUM",
+      "status": "COMPLETED",
+      "date": "2024-06-13",
+      "idUser": "dfc5"
+    },
+    {
+      "id": "676b",
+      "title": "roberto",
+      "description": "gutierrez",
+      "priority": "HIGH",
+      "status": "NOCOMPLETED",
+      "date": "2024-06-14",
+      "idUser": "2fde"
     }
   ]
 }

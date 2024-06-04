@@ -36,12 +36,24 @@ export function TaskScenes(){
       <div class=${styles.containerCard}>
         <p>${task.title}</p>
         <p>${task.date}</p>
+        <p class="p-userId" user-id="${task.idUser}"></p>
         <button class="edit-btn" data-id="${task.id}">Editar</button>
         <button class="delete-btn" data-id="${task.id}">Eliminar</button>
         <button class="preview-btn" data-id="${task.id}">Vista Previa</button>
       </div>
       `;
     });
+
+    const $parUser = document.querySelectorAll('.p-userId');
+    $parUser.forEach(async p => {
+      const repApi = await fetchApi(`http://localhost:3000/users/${p.getAttribute('user-id')}`) 
+      p.innerHTML = `
+        Creado por: ${repApi.name}
+      `
+
+    });
+
+
 
     const $previewBtn = document.querySelectorAll(".preview-btn");
     $previewBtn.forEach(btn => {
@@ -123,9 +135,11 @@ export function TaskScenes(){
         console.log(jsonObject);
       })//Cierre fetch y promesas
 
-      localStorage.removeItem('IdFromUser')
+     localStorage.removeItem('IdFromUser')
       
     });//Cierre $form.addEventListener
+
+  
     
   } // Cierre logic
 

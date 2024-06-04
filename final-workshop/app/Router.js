@@ -19,6 +19,11 @@ export function Router(){
             return;
         }
     }
+
+    if(path !== '/tasks'){
+        localStorage.removeItem('IdFromUser')
+
+    }
   
     
     const publicRoute = routes.public.find(route => route.path === path);
@@ -51,3 +56,5 @@ export function navegateTo(path, state = {}){
 
     Router(); 
 }
+
+window.onpopstate = Router;
